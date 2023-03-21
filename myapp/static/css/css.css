@@ -1,0 +1,96 @@
+.is-login {
+    background-image: url("/static/img/allband.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.is-register {
+    background-image: url("/static/img/bassandguitarr.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.is-forest {
+    background-image: url("/static/img/st masacre.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.is-quarzo {
+    background-image: url("/static/img/st masacre.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.is-admin {
+    background-image: url("/static/img/AdminBG.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.active {
+    filter: invert();
+}
+
+.navbar-start a {
+    font-weight: 700
+}
+
+.navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar .navbar-brand {
+    margin-right: 1rem;
+}
+
+.is-blur {
+    background-color: rgba(53, 53, 53, 0.8) !important;
+    backdrop-filter: blur(0.2rem);
+}
+
+.navbar-dropdown {
+    border-top: none !important;
+}
+
+.forest-ground {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stone-image {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.textarea-min-height {
+    min-height: 100px;
+}
+
+.admin-zone {
+    padding-top: 6rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+}
+
+#logo {
+    width: 150px;
+    height: 80px;
+}
